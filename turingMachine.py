@@ -46,11 +46,9 @@ class TuringMachine:
 
         #Execução das transições fazendo as marcações:
         #AQUI FAZER ##################################
-        while self.estadoAtual != self.estadoFinal:
-            for t in self.transicoes[self.estadoAtual]:
-                
-
-        self.mostraSaida()
+        #while self.estadoAtual != self.estadoFinal:
+        #    for t in self.transicoes[self.estadoAtual]:
+        #        self.mostraSaida()
 
     def mostraSaida(self):
 
